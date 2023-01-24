@@ -2,16 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Personal Portfolio Website</title>
+    <!----CSS link----->
     <link rel="stylesheet" href="main.css">
-
 </head>
-<body> 
-    Hello 
+<body>
+
+    <div class="hero">
+        <nav>
+            <img src="./img/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#">Love Circle</a></li>
+                <li><a href="#">Hate Square</a></li>
+                <li><a href="#">Circle Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Dont buy me</a>
+        </nav>
+
+        <div class="content">
+            <span class="title">Freelance Circle</span>
+            <h1>Hello, I’m <span>Circle </span></h1>
+            <p>I hate edge stuff and I loveee circle</p>
+            <a href="#" class="btn">Download My Circle </a>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="About" id="About"> 
+                <div class="about-title">
+                    <h1>ABOUT ME</h1>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="pic.png" alt="circle">
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet ante purus. 
+                            Sed quis tortor lectus. Nullam nec libero scelerisque, elementum libero id, maximus massa. 
+                            Proin volutpat lobortis nisl id feugiat. Sed neque velit, egestas sit amet fringilla 
+                            non,ommodo in lectus. Nullam at mi facilisis, vehicula risus non,
+                             tristique ex. Suspendisse nibh arcu, volutpat eget cursus quis, sodales ac nulla.
+            
+               
+                        </p>
+                    </div>
+                    
+                </div>    
+                   
+        
+        
+            </div>
+            <div class="LoveHate">
+                <div class="Love-Circle">
+                    <img src="pic.png" alt="circle">
+                </div>
+                <div class="LoveC">
+                    <H1>I Love Circle</H1>
+                    <H2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet ante purus. 
+                        Sed quis tortor lectus. Nullam nec libero scelerisque, elementum libero id, maximus massa. 
+                    </H2>
+                </div>
+                <div class="HateS">
+                    <H1>And I Hate Square</H1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet ante purus. 
+                        Sed quis tortor lectus. Nullam nec libero scelerisque, elementum libero id, maximus massa. 
+                    </h2>
+                </div>
+                
+                <div class="Hate-Square">
+                    <img src="Square_-_black_simple.svg.png" alt="Square">
+                </div>
+            </div>
+            <div>    
+        </div>
+    </div>
     
+    
+    </div>
+    <div id="contact">
+        <h1 class="heading">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" 
+            placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+       
+        </form>
+    </div>
 </body>
 </html>
-
